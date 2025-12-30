@@ -1,0 +1,46 @@
+# ===== macOS =====
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# ===== Python cache / build =====
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ===== Virtual environments =====
+.venv/
+venv/
+ENV/
+env/
+
+# ===== IDE / editor =====
+.vscode/
+.idea/
+
+# ===== Python packaging / test =====
+build/
+dist/
+*.spec
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ===== Logs =====
+*.log
+
+# ===== Outputs (avoid committing extracted text) =====
+*.txt
+
+# ===== Sample / sensitive documents =====
+*.pdf
+*.png
+*.jpg
+*.jpeg
+*.tif
+*.tiff
+
+# ===== Tesseract binaries / data (if you ever copy them locally) =====
+tesseract/
+tessdata/
+*.traineddata
